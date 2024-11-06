@@ -21,24 +21,8 @@
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
   -->
 
-  <!-- Legacy AOSP additions -->
-  <!--
-  <project name="platform/external/tinyxml" path="external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sdm845/display" name="CalyxOS/platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="gitlab" />
-  <project path="hardware/qcom/sdm845/gps" name="CalyxOS/platform_hardware_qcom_sdm845_gps" groups="generic_fs,qcom_sdm845" remote="gitlab" />
-  <project path="hardware/qcom/sdm845/media" name="CalyxOS/platform_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="gitlab" />
-  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
-  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
-  -->
-
   <!-- Inline kernel build -->
   <!--
-  <project name="CalyxOS/platform_prebuilts_clang_kernel_linux-x86_clang-r416183b"  path="prebuilts/clang/kernel/linux-x86/clang-r416183b" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="refs/tags/android-14.0.0_r0.7" />
@@ -64,8 +48,6 @@
     <!-- add guards for CAF repositories -->
     <!--
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
@@ -73,9 +55,6 @@
     -->
   </project>
   <!--
-  <project name="CalyxOS/platform_hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sdm845_display" path="hardware/qcom-caf/sdm845/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sdm845_media" path="hardware/qcom-caf/sdm845/media" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_media" path="hardware/qcom-caf/sm8250/media" groups="lineage" remote="gitlab" />
@@ -123,12 +102,6 @@
   <!--
   <project name="CalyxOS/device_fairphone_FP5" path="device/fairphone/FP5" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" />
-  -->
-
-  <!-- SHIFT SHIFT6mq -->
-  <!--
-  <project name="CalyxOS/device_shift_axolotl" path="device/shift/axolotl" remote="gitlab" />
-  <project name="CalyxOS/kernel_shift_sdm845" path="kernel/shift/sdm845" remote="gitlab" />
   -->
 
   <!-- Motorola sm6225 -->
