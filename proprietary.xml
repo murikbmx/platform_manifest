@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Pixel 3, 3 XL -->
-  <!--
-  <project name="CalyxOS/lfs_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_blueline" path="vendor/google/blueline" remote="gitlab-priv" />
-  -->
-
-  <!-- Pixel 3a, 3a XL -->
-  <!--
-  <project name="CalyxOS/lfs_vendor_google_bonito" path="vendor/google/bonito" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_sargo" path="vendor/google/sargo" remote="gitlab-priv" />
-  -->
-
   <!-- Pixel 4, 4 XL -->
   <!--
   <project name="CalyxOS/lfs_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" />
@@ -72,11 +60,6 @@
   <!-- Fairphone 5 -->
   <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" />
-  -->
-
-  <!-- SHIFT SHIFT6mq -->
-  <!--
-  <project name="CalyxOS/lfs_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" />
   -->
 
   <!-- Motorola sm6225 -->
