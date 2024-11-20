@@ -16,6 +16,23 @@
       "message": "32442: Add empty Android.mk for AOSP build | https://review.calyxos.org/c/CalyxOS/platform_external_google_talkback/+/32442",
       "revId": "da2c86a8e15313640a47c4817b57fadc666f5e1f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7cc4931_2300a93c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-20T21:18:26Z",
+      "side": 1,
+      "message": "Repo is fetched, builds if using the linked patch",
+      "revId": "da2c86a8e15313640a47c4817b57fadc666f5e1f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
