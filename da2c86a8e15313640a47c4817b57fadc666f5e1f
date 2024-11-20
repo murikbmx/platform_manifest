@@ -33,6 +33,24 @@
       "message": "Repo is fetched, builds if using the linked patch",
       "revId": "da2c86a8e15313640a47c4817b57fadc666f5e1f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f6d1aa7_9d5dffb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-20T21:21:14Z",
+      "side": 1,
+      "message": "By builds, I mean, builds don\u0027t crash if using the patch. Without it, it tries including some makefiles within which aren\u0027t supported without modifications",
+      "parentUuid": "c7cc4931_2300a93c",
+      "revId": "da2c86a8e15313640a47c4817b57fadc666f5e1f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
