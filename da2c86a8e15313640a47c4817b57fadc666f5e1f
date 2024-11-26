@@ -68,6 +68,29 @@
       "message": "Wh",
       "revId": "da2c86a8e15313640a47c4817b57fadc666f5e1f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26b050e9_8fe15c6a",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-26T19:28:17Z",
+      "side": 1,
+      "message": "Other google repos are synced with google-\u003cproject\u003e",
+      "range": {
+        "startLine": 10,
+        "startChar": 81,
+        "endLine": 10,
+        "endChar": 82
+      },
+      "revId": "da2c86a8e15313640a47c4817b57fadc666f5e1f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
