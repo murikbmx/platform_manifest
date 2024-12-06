@@ -44,7 +44,7 @@
 
   <!-- Pixel common -->
   <project name="device/google/common/etm" path="device/google/common/etm" groups="device" clone-depth="1" />
-  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,blueport,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="gitlab" />
 
   <!-- Pixel 3, 3 XL -->
   <!--
@@ -89,8 +89,8 @@
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
 
   <!-- Pixel 6, 6 Pro -->
-  <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="gitlab" />
-  <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
